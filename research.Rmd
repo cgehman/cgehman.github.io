@@ -1,5 +1,8 @@
 ---
 title: "Research"
+output:
+  html_document:
+    toc: no
 ---
 
 ```{r setup, include=FALSE}
@@ -17,38 +20,26 @@ knitr::opts_chunk$set(message = F)
 body {text-align: left}
 </style>
 
-___
+----------------------------------
 
-## 1. Variation in hooman food
+## Thesis 
 
-Hoomans love their food, and I love to qualitatively assess the variation across hooman food. 
+##
 
->_I love protein-rich food. Sometimes, pasta is okay._
+### **Distribution of Gila Monsters**
 
-### Story time 
+<div style="display: flex; justify-content: space-between;">
+  <img src="Gila_Monster_head_on.jpg" style="width: 40%;"/>
+  <img src="desert_landscape.jpg" style="width: 36%;"/>
+  <img src="gila_tracks.jpg" style="width: 20.5%;"/>
+</div>
 
-I remember that one time, when my two favorite hoomans and I were driving from Florida to Arizona. On a sunny day in the middle of nowhere in Florida was nestled this beautiful, rustic town. This was the moment when I first met Arby's. What a beautiful day it was!
+### Project Overview
 
-```{r, fig.cap="Me and Arbys.", out.width = '50%', fig.align='center'}
-knitr::include_graphics("me_doing_stuff.jpg")
-```
-   
-___
+----------------------------------
 
-## 2. Temporal patterns of food availability
+### Project Results
 
-> **Do hooman food availability show circadian rhythms?**
-
-I have been studying the above question for a long time now. However, obtaining funds to publish in current times is hard.
-
-___
-
-## 3. Future directions
-
-* Food availability in urban vs. natural habitats
-* Daily association between amount of food available and duration of walk
-
-___
 ----------------------------------
 
 ## Publications
@@ -57,7 +48,7 @@ ___
 
 ##
 
-2. _**Das, B.**, Brouns, R., Will, I., Brachmann, A., de Bekker, C. (2023)_ Using RNASeq to investigate the involvement of the _Ophiocordyceps_ clock in ant host infection and behavioral manipulation. _bioRxiv_ [*PDF*](https://www.biorxiv.org/content/10.1101/2023.01.20.524843v2.abstract)
-<!-- <div class='altmetric-embed' data-badge-popover="right" data-badge-type='medium-bar' data-doi="10.1101/2023.01.20.524843"></div> -->
+**Gehman, C.S.**, and C. M. Gienger. 2025. Predicting the potential distribution of the Gila Monster and evaluating the extent of protected natural areas for conservation. _Journal of Nature Conservation_ 86(2025):126944.
 
-1. _**Das, B.**, Brachmann, A., de Bekker, C. (2023)_ Both behavior-manipulating and non-manipulating entomopathogenic fungi affect rhythmic gene expression in carpenter ant foragers upon infection. _bioRxiv_ [*PDF*](https://www.biorxiv.org/content/10.1101/2023.01.19.524837v2.abstract)
+
+
