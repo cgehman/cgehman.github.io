@@ -11,9 +11,9 @@ output:
     toc_depth: 3
     toc_float: yes
 navbar:
-  title: C.S. Gehman
+  title: Home
   left:
-  - text: Home
+  - text: About
     href: index.html
     #icon: fa-home
   - text: Work Experience
