@@ -14,7 +14,7 @@ pacman::p_load(knitr)
 
 ###
 
-```{r, echo=FALSE, fig.cap="Hi! I am Estrella.", out.width = '30%', fig.align='center'}
+```{r, echo=FALSE, fig.cap="Gila Monster in southwestern Utah", out.width = '30%', fig.align='center'}
 knitr::include_graphics("Gila_Monster_head_on.jpg")
 ```
    
