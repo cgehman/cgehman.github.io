@@ -1,5 +1,5 @@
 name: 
-author: Biplabendu Das
+author: Carson Gehman
 output_dir: docs
 output:
   html_document:
@@ -11,26 +11,26 @@ output:
     toc_depth: 3
     toc_float: yes
 navbar:
-  title: Estrella da Boss
+  title: C.S. Gehman
   left:
   - text: Home
     href: index.html
-    icon: fa-home
-  - text: Research
-    href: research.html
-    icon: fa-flask
-  - text: Website Tutorial
+    #icon: fa-home
+  - text: Work Experience
     href: website_tutorial.html
   # - text: Resume
   #   href: "./resume/resume_john_doe.pdf"
   #   icon: fa-id-card
+  - text: Research
+    href: research.html
+    #icon: fa-flask
   right:
-  - icon: fa-twitter
-    href: https://twitter.com/another_ant_guy
-    align: right
+  #- icon: fa-twitter
+  #  href: https://twitter.com/another_ant_guy
+  #  align: right
   - { 
       icon: "fa-linkedin", 
-      href: "https://www.linkedin.com/in/biplabendu/", 
+      href: "https://www.linkedin.com/in/carson-gehman-4b0212203/", 
       align: right
     }
 
