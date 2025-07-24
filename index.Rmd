@@ -10,18 +10,15 @@ output:
 if (!require("pacman")) install.packages("pacman")
 pacman::p_load(knitr)
 ```
-```{r}
-installed.packages("fontawesome")
-library(fontawesome)
-```
+
 
 
 ###
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="selfie.jpg" style="width: 22.5%;"/>
-  <img src="red_cheeked.png" style="width: 53%;"/>
-  <img src="camera_selfie.jpg" style="width: 22.5%;"/>
+  <img src="selfie.JPG" style="width: 22.5%;"/>
+  <img src="red_cheeked.PNG" style="width: 53%;"/>
+  <img src="camera_selfie.JPG" style="width: 22.5%;"/>
 </div>
 <!--```{r, echo=FALSE, out.width = '70%', fig.align='center'}
 knitr::include_graphics("desert_landscape.jpg") #fig.cap="Gila Monster in southwestern Utah"
@@ -50,7 +47,7 @@ knitr::include_graphics("desert_landscape.jpg") #fig.cap="Gila Monster in southw
     
 
 <div style="display: flex; align-items: center;">
-  <img src="desert_and_human.jpg" alt="Description" style="width: 210px; margin-right: 40px;">
+  <img src="desert_and_human.JPG" alt="Description" style="width: 210px; margin-right: 40px;">
   <p>From August 2023 to May 2025, I pursued my masters degree in biology in [Dr. Chris Gienger's](https://cmgienger.github.io/index.html) lab at Austin Peay State University in Clarksville, TN. My thesis research sought to determine the distribution of the Gila Monster _Heloderma suspectum_ across its range in the American Southwest and northern Mexico and compare this distribution with natural protected areas (PNAs). The Gila Monster is a cryptic, long-lived desert lizard in need of conservation management due to its specialist diet and habitat. I developed a species distribution model using the MaxEnt modeling algorithm and utilized PNA data from the United States Geological Survey's Gap Analysis Project (USA) and Protected Planet (Mexico) to perform the overlap analyses. Our results have since been published in the Journal of Nature Conservation [here](https://www.sciencedirect.com/science/article/abs/pii/S1617138125001219).</p>
 </div>
 
@@ -64,7 +61,7 @@ knitr::include_graphics("desert_landscape.jpg") #fig.cap="Gila Monster in southw
   <p>From August 2018 to May 2022, I pursued my bachelors degree in biology with an emphasis in wildlife ecology at Cedarville University in southwestern Ohio. Here I completed courses relevant to my professional interests such as GIS, ecophysiology, conservation biology, vertebrate anatomy and physiology, and biological research. I also attended the AuSable Institute in northern Michigan in summer 2021, completing course and field work in wildlife ecology and fish ecology and management. As an upper classmen, I worked as a lab assistant for [Dr. Michael Mendel](https://www.researchgate.net/profile/Michael-Mendel-3) and participated in several of his research projects, including a Ohio statewide survey of diversity in Family Chironomidae and assessing freeze tolerances in various frog species as a tech involved with specimen collection and dissection.</p>
 </div>
 <div style="flex: 0;">
-<img src="trail_cam_setup.jpg" alt="Description" style="max-width: 250px; margin-left: 20px;">
+<img src="trail_cam_setup.JPG" alt="Description" style="max-width: 250px; margin-left: 20px;">
 </div>
 </div>
 
@@ -75,9 +72,9 @@ knitr::include_graphics("desert_landscape.jpg") #fig.cap="Gila Monster in southw
 I was born and raised in southwestern South Dakota, within easy access of natural wonders like the Black Hills and Badlands National Park. It is no surpise that I spent most of my childhood enamored with the outdoors, specifically with large mammals. When I traveled east to pursue my degrees, my interests shifted to smaller critters such as birds and herpetofauna. In my spare time, I enjoy outdoor activities such as hiking, birding, fishing, and freshwater snorkeling. I have also recently become an amatuer wildlife photographer (see below for some of my favorite shots).
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="desert_tortoise.jpg" style="width: 33%;"/>
-  <img src="proth_warbler.jpg" style="width: 33%;"/>
-  <img src="copperhead_head.jpg" style="width: 33%;"/>
+  <img src="desert_tortoise.JPG" style="width: 33%;"/>
+  <img src="proth_warbler.JPG" style="width: 33%;"/>
+  <img src="copperhead_head.JPG" style="width: 33%;"/>
 </div>
 
 <!-- for adding the figure caption below the image
