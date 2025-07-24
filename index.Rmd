@@ -10,6 +10,10 @@ output:
 if (!require("pacman")) install.packages("pacman")
 pacman::p_load(knitr)
 ```
+```{r}
+installed.packages("fontawesome")
+library(fontawesome)
+```
 
 
 ###
