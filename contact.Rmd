@@ -11,7 +11,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-  <p>Carson Gehman <br><br>  Graduate Research Assistant <br> Austin Peay State University <br> Center of Excellence in Field Biology <br> Office: SSCA134 <br> [Resume](https://docs.google.com/document/d/1BGp88Lj72oxV3lQAIW-QpsFJ24ORMobu/edit) <br><br> Email: cgehman@my.aspu.edu <br> Email: csgehman7@gmail.com </p>
+  <p>Carson Gehman <br><br>  Graduate Research Assistant <br> Austin Peay State University <br> Center of Excellence in Field Biology <br> Office: SSCA134 <br> [Resume](https://docs.google.com/document/d/1BGp88Lj72oxV3lQAIW-QpsFJ24ORMobu/edit) <br><br> Email: cgehman@my.aspu.edu <br> Email: csgehman7@gmail.com <br><br> [GitHub](https://github.com/cgehman) <br>
+[ResearchGate](https://www.researchgate.net/profile/Carson-Gehman-2?ev=prf_overview) <br>
+[LinkedIn](https://www.linkedin.com/in/carson-gehman-4b0212203/) <br></p>
 </div>
 <div style="flex: 0;">
 <img src="bittern.jpg" alt="Description" style="max-width: 500px; margin-left: 20px;">
@@ -22,13 +24,4 @@ knitr::opts_chunk$set(echo = TRUE)
 library(fontawesome)
 ```
 
-```{r, echo=F, warning=F, message=F}
-fa(name = "github", fill = "black")
-```
-<a href="https://www.example.com" target="_blank">
-  <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Icon" width="30" height="30">
-</a>
 
-[GitHub](https://github.com/cgehman)
-[ResearchGate](https://www.researchgate.net/profile/Carson-Gehman-2?ev=prf_overview)
-[LinkedIn](https://www.linkedin.com/in/carson-gehman-4b0212203/)

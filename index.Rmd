@@ -40,7 +40,7 @@ knitr::include_graphics("desert_landscape.jpg") #fig.cap="Gila Monster in southw
   <p>My personal research interests are primarily focused in the realm of conservation biology and wildlife ecology, with specific emphases on spatial analyses that combine satellite and physical data to answer questions about how species distributions are formed by their physical environment. I am also specifically interested in species facing increased extinction risk due to human activities at habitat and landscape levels.</p>
 </div>
 <div style="flex: 0;">
-<img src="hellbender.jpg" alt="Description" style="max-width: 250px; margin-left: 20px;">
+<img src="hellbender.JPG" alt="Description" style="max-width: 250px; margin-left: 20px;">
 </div>
 </div>
 
