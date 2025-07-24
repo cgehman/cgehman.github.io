@@ -9,10 +9,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Biplabendu Das" />
 
 
-<title>A tutorial for building and deploying websites using RMarkdown and GitHub</title>
+<title>Work Experience</title>
 
 <script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -30,9 +29,6 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -225,69 +221,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -295,16 +228,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -317,12 +240,12 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">C.S. Gehman</a>
+      <a class="navbar-brand" href="index.html">Home</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Home</a>
+  <a href="index.html">About</a>
 </li>
 <li>
   <a href="website_tutorial.html">Work Experience</a>
@@ -347,10 +270,7 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">A tutorial for building and deploying
-websites using RMarkdown and GitHub</h1>
-<h4 class="author">Biplabendu Das</h4>
-<h4 class="date">24 July, 2025</h4>
+<h1 class="title toc-ignore">Work Experience</h1>
 
 </div>
 
@@ -359,335 +279,85 @@ websites using RMarkdown and GitHub</h1>
 body {text-align: left}
 </style>
 <hr />
-<p>This tutorial shows how to deploy a website, hosted on GitHub Pages
-for free, using RMarkdown.</p>
-<p>To make the process highly accessible, I have created a dummy website
-that provides a template for building a professional website with two
-pages: a homepage and a webpage for describing your research experience.
-The template can be customized for your needs by renaming and
-repurposing the individual pages.</p>
-<p>The process can be broken down to three steps:</p>
-<ol style="list-style-type: decimal">
-<li>Make a copy of the website on your GitHub, and deploy it on GitHub
-Pages.</li>
-<li>Change the style and content of your html webpages using RMarkdown
-on your local computer.</li>
-<li>Update your online website by pushing the local changes to
-GitHub.</li>
-</ol>
-<blockquote>
-<p>Note, every time you make any local changes to your website (Step 2),
-you need to use step 3 to update it on the web.</p>
-</blockquote>
-<hr />
-<div id="video-tutorial" class="section level2">
-<h2>Video tutorial</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/r0TKAu-H2kc?si=fCPygvJjoIj1zZhS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-</iframe>
-<p>Source: Workshop hosted by Billu in September, 2024.</p>
-<hr />
-</div>
-<div id="step-1-deploy-website" class="section level2">
-<h2>Step 1: Deploy website</h2>
-<hr />
-<div id="clone-the-template" class="section level3">
-<h3>1.1 Clone the template</h3>
-<p>We will make a copy of the dummy website by <code>forking</code> the
-repository on GitHub. So, the first thing we need is a registered GitHub
-account. If you do not have a GitHub account, use the following
-guidelines to do so:</p>
-<ol style="list-style-type: decimal">
-<li>Go to Github and register an account by providing the following
-information.</li>
-</ol>
-<ul>
-<li>email: your_email_id</li>
-<li>password: your_password</li>
-<li>user name: your_user_name <strong>Pick your username
-carefully</strong></li>
-</ul>
-<blockquote>
-<p>The address of your website will be <a
-href="https://your_user_name.github.io/your_project_name"
-class="uri">https://your_user_name.github.io/your_project_name</a></p>
-</blockquote>
-<blockquote>
-<p>For example, my user name is biplabendu and my website is deployed
-as: <a href="https://biplabendu.github.io/homepage"
-class="uri">https://biplabendu.github.io/homepage</a></p>
-</blockquote>
-<ol start="2" style="list-style-type: decimal">
-<li><p>Go to the GitHub repository for the dummy website: <a
-href="https://github.com/biplabendu/my_dummy_website">here</a></p></li>
-<li><p>Click the <code>Fork</code> button on the top-right of the
-repository, which opens a setup page where you can customize the name of
-your repository.</p></li>
-<li><p>The name of the repository will be the default name in your
-website link (see above). Pick something that you like. I will change it
-to “homepage”. Make sure “Copy the main branch only” is checked. Click
-“Create fork”.</p></li>
-</ol>
-<div class="figure" style="text-align: center">
-<img src="images/01.png" alt="Creating a fork." width="85%" />
-<p class="caption">
-Creating a fork.
+<div id="graduate-assistant" class="section level3">
+<h3>Graduate Assistant</h3>
+<div style="display: flex; align-items: center;">
+<div style="flex: 1;">
+<p>
+From August 2023 to May 2025, I served as both a graduate research
+assistant and a graduate teaching assistant at Austin Peay State
+University. As a research assistant, I spent most of my time pursuing
+the research interests of Dr. Chris Gienger through both my own thesis
+research and other research projects being conducted in the lab. This
+work allowed me to sharpen my skills coding in R and visualizing spatial
+data using ArcGIS Pro. I was also responsible for caring for our living
+reptile specimens, which included several species of turtles, tortoises,
+and ten Gila Monsters. Lastly, myself and others in the lab displayed
+living specimens at science outreach events with local elementary
+schools. As a teaching assistant, I taught multiple lab sections of the
+Human Anatomy and Physiology I course and was responsible for creating
+and grading lab assignments and exams.
 </p>
 </div>
-</div>
-<div id="deploy-the-website" class="section level3">
-<h3>1.2 Deploy the website</h3>
-<ol style="list-style-type: decimal">
-<li><p>Go to <code>Settings</code>. If you have not changed the name of
-your repository, I would recommend you do it at this step.</p></li>
-<li><p>Select <code>Pages</code> in the <code>Code and automation</code>
-section on the left navigation pane.</p></li>
-</ol>
-<div class="figure" style="text-align: center">
-<img src="images/02.png" alt="Setup GitHub Pages." width="85%" />
-<p class="caption">
-Setup GitHub Pages.
-</p>
-</div>
-<ol start="3" style="list-style-type: decimal">
-<li>Check that <code>Source</code> is selected as
-<code>Deploy from a branch</code>. Select <code>Branch</code> as
-<code>main</code>, which should automatically select
-<code>/(root)</code> as the subfolder. Change <code>/(root)</code> to
-<code>/docs</code> because our html files are not in the folder called
-<code>docs</code>. If all looks good, select <code>Save</code>.</li>
-</ol>
-<div class="figure" style="text-align: center">
-<img src="images/03.png" alt="Deploy website" width="85%" />
-<p class="caption">
-Deploy website
-</p>
-</div>
-<ol start="4" style="list-style-type: decimal">
-<li><p>That’s it, your website is being created and deployed. If you do
-not see a link for your website at the top of the <code>Pages</code>,
-please give it a minute and refresh. This might take a couple of
-minutes.</p></li>
-<li><p>Once your link is ready, click on it and see if it worked. You
-should arrive at a website with your custom user name and repository
-name, which looks like below.</p></li>
-</ol>
-<div class="figure" style="text-align: center">
-<img src="images/04.png" alt="Dummy website template." width="85%" />
-<p class="caption">
-Dummy website template.
-</p>
-</div>
-<hr />
+<div style="flex: 0;">
+<p><img src="gila_tray.jpg" alt="Description" style="max-width: 250px; margin-left: 20px;"></p>
 </div>
 </div>
-<div id="step-2-making-modifications" class="section level2">
-<h2>Step 2: Making modifications</h2>
-<hr />
-<div id="linking-github-and-rstudio" class="section level3">
-<h3>2.1 Linking GitHub and RStudio</h3>
-<ol style="list-style-type: decimal">
-<li><p>Get a copy of the repository on your local computer using GitHub
-Desktop. If you don’t have it installed on your computer, you can do
-iter by visiting <a href="https://desktop.github.com/">this
-website</a>.</p></li>
-<li><p>Open GitHub Desktop and sign in to your account. You might have
-to allow authorization by clicking the
-<code>signing in on the web</code> option on your login screen.</p></li>
-<li><p>While keeping GitHub Desktop open, click on <code>File</code>
--&gt; <code>Clone repository</code>.</p></li>
-<li><p>A new window opens where you should see your newly created
-repository. See below.</p></li>
-</ol>
-<div class="figure" style="text-align: center">
-<img src="images/05.png" alt="Create a local clone of your repository" width="85%" />
-<p class="caption">
-Create a local clone of your repository
-</p>
-</div>
-<ol start="5" style="list-style-type: decimal">
-<li><p>Click on the repository with
-<code>your_user_name/your_repository_name</code>, and select a path on
-your folder where the cloned repository will be saved. Click
-<code>Clone</code>.</p></li>
-<li><p>If everything works fine, your GitHub Desktop should look like
-below:</p></li>
-</ol>
-<div class="figure" style="text-align: center">
-<img src="images/06.png" alt="GitHub Desktop after cloning is successful" width="85%" />
-<p class="caption">
-GitHub Desktop after cloning is successful
-</p>
-</div>
-<ol start="7" style="list-style-type: decimal">
-<li>There are two ways to access the files of your repository:</li>
-</ol>
-<ul>
-<li>While on GitHub Desktop, click on the button
-<code>View the files of your repository in XXXX</code> to open the
-folder.</li>
-<li>[Preferred way] Create a dedicated folder for all your GitHub repo
-for easy access and navigation.</li>
-</ul>
-</div>
-<div id="customizing-the-homepage" class="section level3">
-<h3>2.1 Customizing the homepage</h3>
-<p>We will use Markdown and R to modify our html pages; each html has an
-associated <code>.Rmd</code> file</p>
-<blockquote>
-<p>To be able to follow along for the next two sections, you will need
-to have R and RStudio installed on your computer. If you do not have
-them installed already, you can find instructions on how to install R
-and RStudio <a
-href="https://rstudio-education.github.io/hopr/starting.html">here</a>.</p>
-</blockquote>
-<ol style="list-style-type: decimal">
-<li><p>Open the folder in your computer that contains the repository
-files</p></li>
-<li><p>Open the <code>my_dummy_website.Rproj</code> file which will open
-RStudio.</p></li>
-<li><p>Now, open the <code>index.Rmd</code> file either within RStudio
-or from your local folder.</p></li>
-<li><p>We will now modify the markdown file.</p></li>
-</ol>
-<ul>
-<li>the <code>.Rmd</code> header</li>
-<li>Making hierarchical sections and table of contents</li>
-<li>Highlighting and styling</li>
-<li>Hyperlink</li>
-<li>Pictures and Videos</li>
-<li>create updated html</li>
-</ul>
-</div>
-<div id="addingremoving-webpages" class="section level3">
-<h3>2.2 Adding/Removing webpages</h3>
-<ol style="list-style-type: decimal">
-<li><p>Create a new <code>.Rmd</code> file, add content, and generate a
-html</p>
-<ul>
-<li>For fun, we will do some anlayses on simulated data</li>
-<li>Make two plots</li>
-<li>Embed a table</li>
-<li>Generate a html page</li>
-</ul></li>
-<li><p>Customizing the <code>_site.yml</code> file to add/remove a
-webpage</p>
-<ul>
-<li>Add two new tabs in the navigation bar</li>
-<li>Connect one new tab to the newly generated html</li>
-<li>Connect the other tab to your resume</li>
-<li>Save the _site.yml file</li>
-<li>Re-create all the html files</li>
-</ul></li>
-<li><p>Check a local copy of the website to make sure everything looks
-good</p></li>
-</ol>
-</div>
-<div id="render-website" class="section level3">
-<h3>2.3 Render website</h3>
-<blockquote>
-<p>VERY IMPORTANT!!!</p>
-</blockquote>
-<p>Make sure you run <code>rmarkdown::render_site()</code> everytime you
-make any changes to any of the files.</p>
-<hr />
-</div>
-</div>
-<div id="step-3-updating-website" class="section level2">
-<h2>Step 3: Updating website</h2>
-<hr />
-<ul>
-<li>Go to GitHub Desktop on your computer, and select
-<code>Current Repository</code> (top-left corner) to
-<code>your_repository_name</code> (for me, it’s called
-<code>homepage</code>)</li>
-<li>Select all the changes that you want to push, and write a brief
-<code>Summary</code> (required) of what the changes were. For example,
-since we added a new page, we can write,
-<code>added a new webpage</code>. You can provide more detailed
-description of the changes in the field below that says
-<code>Description</code>.</li>
-</ul>
-<div class="figure" style="text-align: center">
-<img src="images/99.png" alt="Push changes to GitHub" width="85%" />
-<p class="caption">
-Push changes to GitHub
-</p>
-</div>
-<ul>
-<li>Once you are happy with your comments (remember, you are helping
-future you, so be generous with your descriptions), do the following in
-the specified order:
-<ul>
-<li>click <code>Commit to main</code></li>
-<li>click <code>Push Origin</code></li>
-</ul></li>
-</ul>
-<blockquote>
-<p>That’s it, you are done!</p>
-</blockquote>
-<p>Your website will be automatically modified and re-deployed in a
-couple of minutes (usually less than &lt;5 mins, but depends on the size
-of your website and amount of changes)</p>
-</div>
-<div id="further-reading" class="section level2">
-<h2>Further reading</h2>
-<p>For more inspiration on customizing the html output, refer to the
-following manual:</p>
-<blockquote>
-<p><a
-href="https://bookdown.org/yihui/rmarkdown/html-document.html#table-of-contents"
-class="uri">https://bookdown.org/yihui/rmarkdown/html-document.html#table-of-contents</a></p>
-</blockquote>
-</div>
-<div id="random-features" class="section level2">
-<h2>Random features</h2>
-<div id="customizing-font-size-and-style" class="section level3">
-<h3>Customizing font size and style</h3>
-<hr />
-<blockquote>
-<p>Option 1: write HTML code</p>
-</blockquote>
-`
-<h3 style="font-size:30px; color:red;">
-I am a colored header text (h3).
-</h3>
-<p style="
-    font-size:18px; 
-    font-family:&#39;Papyrus&#39;;
-    text-align:center;">
-I am a body text.<br />
-But, I am centered text of a different font family and bigger size.
-</p>
-<hr />
-<blockquote>
-<p>Option 2: use a style.css file</p>
-</blockquote>
-<pre class="r"><code>/* Whole document: */
-body {
-  font-family: Helvetica;
-  font-size: 16pt;
-}
+<!--## Video tutorial
 
-/* Headers */
-h3 {
-  font-size: 24pt;
-  color: maroon;
-}</code></pre>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r0TKAu-H2kc?si=fCPygvJjoIj1zZhS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Source: Workshop hosted by Billu in September, 2024.-->
+<hr />
 </div>
-<div id="allow-users-to-leave-commentsannotations"
-class="section level3">
-<h3>Allow users to leave comments/annotations</h3>
-<pre class="r"><code>## Hypothesis annotations
-# Latest development version
-remotes::install_github(&quot;r-world-devs/hypothesis&quot;)
-hypothesis::useHypothesis()</code></pre>
+<div id="biology-lab-instructor" class="section level3">
+<h3>Biology Lab Instructor</h3>
+<div style="display: flex; align-items: center;">
+<img src="saw_whet.jpg" alt="Description" style="width: 210px; margin-right: 40px;">
+<p>
+For the 2022-2023 academic year, I served as the primary laboratory
+instructor for the non-major biology course at Cedarville University.
+Duties included lecturing course content, grading course materials,
+prepping and organizing lab materials, and overseeing a small group of
+student graders.This opportunity offered the chance to gain experience
+as an instructor in a formal classroom setting. During this time, I also
+assisted other labs in the biology department by supervising class field
+trips for aquatic invertebrate collections, grading and proctoring
+exams, and holding a workshop on skinning beaver specimens for full body
+taxidermy mounts. During this time, I also participated in several
+volunteer opportunities, such as mist netting for Northern Saw-Whet Owls
+for a local MOTIS study.
+</p>
+</div>
+<hr />
+</div>
+<div id="wildlife-damage-intern" class="section level3">
+<h3>Wildlife Damage Intern</h3>
+<div style="display: flex; align-items: center;">
+<div style="flex: 1;">
+<p>
+From May 2022 to August 2022, I worked as an intern for the Wildlide
+Damage department for the South Dakota State Game Fish &amp; Parks. This
+department is responsible for responding to landowner service requests
+concerning damages to crops and livestock from wildlife. My primary
+duties for this job were building temporary electric fences around crop
+fields to deter damage from Canada geese during the time they are
+grounded from shedding their flight feathers. I also assisted in
+depredation efforts aimed at reducing livestock and property damage from
+coyotes, beaver, and ground squirrels. During this internship, I was
+able to participate in the state migratory bird survey, where we trapped
+Canada geese and mourning doves so we could band them, assess general
+health, and collect age data.
+</p>
+</div>
+<div style="flex: 0;">
+<p><img src="goose_banding.png" alt="Description" style="max-width: 200px; margin-left: 20px;"></p>
+</div>
 </div>
 </div>
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -720,35 +390,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

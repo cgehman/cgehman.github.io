@@ -9,3 +9,11 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+  <p>Carson Gehman <br><br>  Graduate Research Assistant <br> Austin Peay State University <br> Center of Excellence in Field Biology <br> Office: SSCA134 <br> [Resume](https://docs.google.com/document/d/1BGp88Lj72oxV3lQAIW-QpsFJ24ORMobu/edit) <br><br> Email: cgehman@my.aspu.edu <br> Email: csgehman7@gmail.com </p>
+</div>
+<div style="flex: 0;">
+<img src="bittern.jpg" alt="Description" style="max-width: 500px; margin-left: 20px;">
+</div>
+</div>

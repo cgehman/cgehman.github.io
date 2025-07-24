@@ -22,11 +22,26 @@ body {text-align: left}
 
 ----------------------------------
 
-## Thesis 
+## Ongoing
 
 ##
 
-### **Distribution of Gila Monsters**
+### **Niche Overlap of Gila Monsters and Beaded Lizards** <br>
+
+### Project Overview
+
+<div style="display: flex; align-items: center;">
+  <img src="Alamos.jpeg" alt="Description" style="width: 300px; margin-right: 40px;">
+  <p> I am currently working with Dr. Chris Gienger to determine if Gila Monsters and Beaded Lizards, the two last extant members of Genus *Heloderma*, show niche similarity where their ranges overlap in southern Sonora, Mexico. We will assess this by using occurrence data and environmental layers collected via satellite to develop ecological niche models for each species using the MaxEnt (maximum entropy) algorithm. We will then use various indeces and metrics to determine if these two closely related species show niche similarity or divergence. </p>
+</div>
+
+----------------------------------
+
+## Thesis 
+
+##
+<!--adds space breaks-->
+### **Distribution of Gila Monsters**<br> 
 
 <div style="display: flex; justify-content: space-between;">
   <img src="Gila_Monster_head_on.jpg" style="width: 40%;"/>
@@ -36,9 +51,20 @@ body {text-align: left}
 
 ### Project Overview
 
+As a graduate student at Austin Peay State University, I conducted my thesis research on developing a distribution of the Gila Monster (*Heloderma suspectum*) in order to assess how much of this distribution was located within protected natural areas (PNAs). The Gila Monster is a desert lizard currently state listed as threatened or endangered across its range. It is also highly cryptic, making it difficult to assess as a species using normal field technqiues. I utilized georeferenced occurrence data and environmental layers collected via satellite to develop a species distribution model using the MaxEnt (maximum entropy) algorithm. This was then compared to a PNA database that included the United States Geological Survey's Gap Analysis Project (USA) and Protected Planet (Mexico) databases. The main aims of this research were to determine the climatic variables that shape their distribution, assess the degree of overlap between the distribution and PNA database, and identify possible novel potential habitats that may be critical for Gila Monsters.
+
 ----------------------------------
 
 ### Project Results
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+  <p>Our results showed that only a small percentage of high quality PNAs overlap with our predicted distribution for Gila Monsters. We identified several aspects of temperature and precipitation as the variables driving their distribution, which is unsurprising due to their desert habitat. We also identified portions of southeastern California and northwestern Chihuahua, Mexico, as potentially containing Gila Monster populations even though we have few to no confirmed records there. Our results have since been published in the Journal of Nature Conservation [here](https://www.sciencedirect.com/science/article/abs/pii/S1617138125001219). </p>
+</div>
+<div style="flex: 0;">
+<img src="desert_landscape2.jpg" alt="Description" style="max-width: 200px; margin-left: 20px;">
+</div>
+</div>
 
 ----------------------------------
 
