@@ -26,7 +26,7 @@ navbar:
     #icon: fa-flask
   - text: Contact
     href: contact.html
-  right:
+  #right:
   #- icon: fa-twitter
   #  href: https://twitter.com/another_ant_guy
   #  align: right
