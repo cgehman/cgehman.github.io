@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 [LinkedIn](https://www.linkedin.com/in/carson-gehman-4b0212203/) <br></p>
 </div>
 <div style="flex: 0;">
-<img src="bittern.JPG" alt="Description" style="max-width: 500px; margin-left: 20px;">
+<img src="./images/bittern.jpg" alt="Description" style="max-width: 500px; margin-left: 20px;">
 </div>
 </div>
 

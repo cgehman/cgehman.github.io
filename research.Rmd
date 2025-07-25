@@ -31,7 +31,7 @@ body {text-align: left}
 ### Project Overview
 
 <div style="display: flex; align-items: center;">
-  <img src="Alamos.JPEG" alt="Description" style="width: 300px; margin-right: 40px;">
+  <img src="./images/Alamos.jpeg" alt="Description" style="width: 300px; margin-right: 40px;">
   <p> I am currently working with Dr. Chris Gienger to determine if Gila Monsters and Beaded Lizards, the two last extant members of Genus *Heloderma*, show niche similarity where their ranges overlap in southern Sonora, Mexico. We will assess this by using occurrence data and environmental layers collected via satellite to develop ecological niche models for each species using the MaxEnt (maximum entropy) algorithm. We will then use various indeces and metrics to determine if these two closely related species show niche similarity or divergence. </p>
 </div>
 
@@ -44,9 +44,9 @@ body {text-align: left}
 ### **Distribution of Gila Monsters**<br> 
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="Gila_Monster_head_on.JPG" style="width: 40%;"/>
-  <img src="desert_landscape.JPG" style="width: 36%;"/>
-  <img src="gila_tracks.JPG" style="width: 20.5%;"/>
+  <img src="./images/Gila_Monster_head_on.JPG" style="width: 40%;"/>
+  <img src="./images/desert_landscape.jpg" style="width: 36%;"/>
+  <img src="./images/gila_tracks.jpg" style="width: 20.5%;"/>
 </div>
 
 ### Project Overview
@@ -62,7 +62,7 @@ As a graduate student at Austin Peay State University, I conducted my thesis res
   <p>Our results showed that only a small percentage of high quality PNAs overlap with our predicted distribution for Gila Monsters. We identified several aspects of temperature and precipitation as the variables driving their distribution, which is unsurprising due to their desert habitat. We also identified portions of southeastern California and northwestern Chihuahua, Mexico, as potentially containing Gila Monster populations even though we have few to no confirmed records there. Our results have since been published in the Journal of Nature Conservation [here](https://www.sciencedirect.com/science/article/abs/pii/S1617138125001219). </p>
 </div>
 <div style="flex: 0;">
-<img src="desert_landscape2.JPG" alt="Description" style="max-width: 200px; margin-left: 20px;">
+<img src="./images/desert_landscape2.jpg" alt="Description" style="max-width: 200px; margin-left: 20px;">
 </div>
 </div>
 
