@@ -30,11 +30,11 @@ navbar:
   #- icon: fa-twitter
   #  href: https://twitter.com/another_ant_guy
   #  align: right
-  - { 
-      icon: "fa-linkedin", 
-      href: "https://www.linkedin.com/in/carson-gehman-4b0212203/", 
-      align: right
-    }
+  #- { 
+  #    icon: "fa-linkedin", 
+  #    href: "https://www.linkedin.com/in/carson-gehman-4b0212203/", 
+  #    align: right
+  #  }
 
 
 # Resources:
