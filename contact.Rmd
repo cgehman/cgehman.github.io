@@ -20,8 +20,4 @@ knitr::opts_chunk$set(echo = TRUE)
 </div>
 </div>
 
-```{r, echo=F, warning=F, message=F}
-library(fontawesome)
-```
-
 
