@@ -16,7 +16,7 @@ pacman::p_load(knitr)
 ###
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="./images/selfie.JPG" style="width: 22.5%;"/>
+  <img src="./images/selfie.jpg" style="width: 22.5%;"/>
   <img src="red_cheeked.PNG" style="width: 53%;"/>
   <img src="camera_selfie.JPG" style="width: 22.5%;"/>
 </div>
