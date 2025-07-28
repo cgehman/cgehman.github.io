@@ -13,7 +13,8 @@ knitr::opts_chunk$set(echo = TRUE)
   <div style="flex: 1;">
   <p>Carson Gehman <br><br>  Graduate Research Assistant <br> Austin Peay State University <br> Center of Excellence in Field Biology <br> Office: SSCA134 <br> [Resume](https://docs.google.com/document/d/1BGp88Lj72oxV3lQAIW-QpsFJ24ORMobu/edit) <br><br> Email: cgehman@my.aspu.edu <br> Email: csgehman7@gmail.com <br><br> [GitHub](https://github.com/cgehman) <br>
 [ResearchGate](https://www.researchgate.net/profile/Carson-Gehman-2?ev=prf_overview) <br>
-[LinkedIn](https://www.linkedin.com/in/carson-gehman-4b0212203/) <br></p>
+[LinkedIn](https://www.linkedin.com/in/carson-gehman-4b0212203/) <br>
+[eBird Profile](https://ebird.org/profile/NDIzNjIwNQ)<br> </p>
 </div>
 <div style="flex: 0;">
 <img src="./images/bittern.jpg" alt="Description" style="max-width: 500px; margin-left: 20px;">
