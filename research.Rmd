@@ -28,6 +28,8 @@ body {text-align: left}
 
 ### **Gila Monsters Across the Mojave Desert** <br>
 
+### Change the Research Interests Section on About Page to spatial/herp specific
+
 ### Project Overview
 
 <div style="display: flex; align-items: center;">
