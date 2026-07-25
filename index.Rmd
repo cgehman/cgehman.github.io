@@ -34,7 +34,7 @@ knitr::include_graphics("desert_landscape.jpg") #fig.cap="Gila Monster in southw
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-  <p>My personal research interests are primarily focused in the realm of conservation biology and wildlife ecology for taxa such as herpetofauna, birds, and fishes. I am also interested in conservation efforts for species facing increased extinction risk due to human activities at the population and habitat levels.I am also passionate about wildlife education, teaching the public about the natural world around them and how to care for it.</p>
+  <p>My professional research interests are primarily focused in the realm of spatial ecology and conservation biology for herpetofauna, mammals, and birds. My spatial ecology interests include species distributions, habitat and resource use, and niche partitioning through quantitative methods. I am also interested in conservation efforts for species facing increased extinction risk due to human activities at the population and habitat levels.I am also passionate about wildlife education, teaching the public about the natural world around them and how to care for it.</p>
 </div>
 <div style="flex: 0;">
 <img src="./images/hellbender.JPG" alt="Description" style="max-width: 250px; margin-left: 20px;">
@@ -77,6 +77,12 @@ I was born and raised in southwestern South Dakota, within easy access of natura
   <img src="./images/copperhead_head.JPG" style="width: 33%;"/>
 </div>
 
+----------------------------------
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="./images/bighorn.JPEG" style="width: 45%;"/>
+  <img src="./images/bison_rolling.JPEG" style="width: 49%;"/> 
+  
 <!-- for adding the figure caption below the image
 <!--<img src="copperhead_head.jpg" alt="Description of image" style="display: block; margin: auto;" />
 <p style="text-align: center; font-style: italic;">Figure 1: Your caption text here.</p>-->
