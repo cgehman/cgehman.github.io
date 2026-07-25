@@ -82,6 +82,7 @@ I was born and raised in southwestern South Dakota, within easy access of natura
 <div style="display: flex; justify-content: space-between;">
   <img src="./images/bighorn.JPEG" style="width: 45%;"/>
   <img src="./images/bison_rolling.JPEG" style="width: 49%;"/> 
+</div>
   
 <!-- for adding the figure caption below the image
 <!--<img src="copperhead_head.jpg" alt="Description of image" style="display: block; margin: auto;" />
